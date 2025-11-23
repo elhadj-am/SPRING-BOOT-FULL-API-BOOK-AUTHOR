@@ -1,0 +1,9 @@
+/Users/elhadjamadoudiallo/Documents/ELHADJ-GITHUB-MANAGEMENT/SPRING-BOOT-DEVTIRO-JPA-HYBERNATE/src/main/java/Elhadj/SPRING_BOOT_DEVTIRO/SpringBootDevtiroApplication.java
+/Users/elhadjamadoudiallo/Documents/ELHADJ-GITHUB-MANAGEMENT/SPRING-BOOT-DEVTIRO-JPA-HYBERNATE/src/main/java/Elhadj/SPRING_BOOT_DEVTIRO/database/DatabaseApplication.java
+/Users/elhadjamadoudiallo/Documents/ELHADJ-GITHUB-MANAGEMENT/SPRING-BOOT-DEVTIRO-JPA-HYBERNATE/src/main/java/Elhadj/SPRING_BOOT_DEVTIRO/database/config/DatabaseConfig.java
+/Users/elhadjamadoudiallo/Documents/ELHADJ-GITHUB-MANAGEMENT/SPRING-BOOT-DEVTIRO-JPA-HYBERNATE/src/main/java/Elhadj/SPRING_BOOT_DEVTIRO/database/dao/AuthorDao.java
+/Users/elhadjamadoudiallo/Documents/ELHADJ-GITHUB-MANAGEMENT/SPRING-BOOT-DEVTIRO-JPA-HYBERNATE/src/main/java/Elhadj/SPRING_BOOT_DEVTIRO/database/dao/BookDao.java
+/Users/elhadjamadoudiallo/Documents/ELHADJ-GITHUB-MANAGEMENT/SPRING-BOOT-DEVTIRO-JPA-HYBERNATE/src/main/java/Elhadj/SPRING_BOOT_DEVTIRO/database/dao/impl/AuthorDaoImpl.java
+/Users/elhadjamadoudiallo/Documents/ELHADJ-GITHUB-MANAGEMENT/SPRING-BOOT-DEVTIRO-JPA-HYBERNATE/src/main/java/Elhadj/SPRING_BOOT_DEVTIRO/database/dao/impl/BookDaoImpl.java
+/Users/elhadjamadoudiallo/Documents/ELHADJ-GITHUB-MANAGEMENT/SPRING-BOOT-DEVTIRO-JPA-HYBERNATE/src/main/java/Elhadj/SPRING_BOOT_DEVTIRO/database/domain/Author.java
+/Users/elhadjamadoudiallo/Documents/ELHADJ-GITHUB-MANAGEMENT/SPRING-BOOT-DEVTIRO-JPA-HYBERNATE/src/main/java/Elhadj/SPRING_BOOT_DEVTIRO/database/domain/Book.java

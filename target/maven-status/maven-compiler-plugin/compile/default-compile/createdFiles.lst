@@ -1,0 +1,13 @@
+Elhadj/SPRING_BOOT_DEVTIRO/database/domain/Book.class
+Elhadj/SPRING_BOOT_DEVTIRO/database/dao/impl/AuthorDaoImpl.class
+Elhadj/SPRING_BOOT_DEVTIRO/database/domain/Book$BookBuilder.class
+Elhadj/SPRING_BOOT_DEVTIRO/database/domain/Author$AuthorBuilder.class
+Elhadj/SPRING_BOOT_DEVTIRO/database/DatabaseApplication.class
+Elhadj/SPRING_BOOT_DEVTIRO/database/dao/AuthorDao.class
+Elhadj/SPRING_BOOT_DEVTIRO/database/dao/impl/BookDaoImpl$BookRowMapper.class
+Elhadj/SPRING_BOOT_DEVTIRO/SpringBootDevtiroApplication.class
+Elhadj/SPRING_BOOT_DEVTIRO/database/dao/impl/AuthorDaoImpl$AuthorRowMapper.class
+Elhadj/SPRING_BOOT_DEVTIRO/database/domain/Author.class
+Elhadj/SPRING_BOOT_DEVTIRO/database/dao/BookDao.class
+Elhadj/SPRING_BOOT_DEVTIRO/database/config/DatabaseConfig.class
+Elhadj/SPRING_BOOT_DEVTIRO/database/dao/impl/BookDaoImpl.class

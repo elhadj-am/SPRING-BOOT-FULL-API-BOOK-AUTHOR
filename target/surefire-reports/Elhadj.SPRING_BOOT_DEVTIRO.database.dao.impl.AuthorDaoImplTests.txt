@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Elhadj.SPRING_BOOT_DEVTIRO.database.dao.impl.AuthorDaoImplTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in Elhadj.SPRING_BOOT_DEVTIRO.database.dao.impl.AuthorDaoImplTests
