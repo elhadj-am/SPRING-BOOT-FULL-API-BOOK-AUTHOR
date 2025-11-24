@@ -1,29 +1,29 @@
 package Elhadj.SPRING_BOOT_DEVTIRO.database;
 
-import Elhadj.SPRING_BOOT_DEVTIRO.database.domain.Author;
-import Elhadj.SPRING_BOOT_DEVTIRO.database.domain.Book;
+import Elhadj.SPRING_BOOT_DEVTIRO.database.domain.entities.AuthorEntity;
+import Elhadj.SPRING_BOOT_DEVTIRO.database.domain.entities.BookEntity;
 
 public final class TestDataUtil {
 
     private TestDataUtil() {
     }
 
-    public static Author createTestAuthorA() {
-        return Author.builder()
+    public static AuthorEntity createTestAuthorA() {
+        return AuthorEntity.builder()
                 .name("Maria")
                 .age(14)
                 .build();
     }
 
-    public static Author createTestAuthorB() {
-        return Author.builder()
+    public static AuthorEntity createTestAuthorB() {
+        return AuthorEntity.builder()
                 .name("Pedro")
                 .age(20)
                 .build();
     }
 
-    public static Author createTestAuthorC() {
-        return Author.builder()
+    public static AuthorEntity createTestAuthorC() {
+        return AuthorEntity.builder()
                 .name("Dorothé")
                 .age(30)
                 .build();
@@ -31,27 +31,27 @@ public final class TestDataUtil {
 
 
 
-    public static Book createTestBookA(final Author author) {
-        return Book.builder()
+    public static BookEntity createTestBookA(final AuthorEntity authorEntity) {
+        return BookEntity.builder()
                 .isbn("a1b2")
                 .title("Potter")
-                .author(author)
+                .authorEntity(authorEntity)
                 .build();
     }
 
-    public static Book createTestBookB(final Author author) {
-        return Book.builder()
+    public static BookEntity createTestBookB(final AuthorEntity authorEntity) {
+        return BookEntity.builder()
                 .isbn("b1b2")
                 .title("The hobbit")
-                .author(author)
+                .authorEntity(authorEntity)
                 .build();
     }
 
-    public static Book createTestBookC(final Author author) {
-        return Book.builder()
+    public static BookEntity createTestBookC(final AuthorEntity authorEntity) {
+        return BookEntity.builder()
                 .isbn("c1b2")
                 .title("The hobbit")
-                .author(author)
+                .authorEntity(authorEntity)
                 .build();
     }
 }
