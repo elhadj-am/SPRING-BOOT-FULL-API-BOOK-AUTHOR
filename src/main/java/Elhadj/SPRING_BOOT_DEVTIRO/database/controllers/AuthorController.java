@@ -25,5 +25,5 @@ public class AuthorController {
         AuthorEntity savedAuthorEntity = authorService.createAuthor(authorEntity);
         return authorMapper.mapTo(savedAuthorEntity);
     }
-    
+
 }
