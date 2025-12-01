@@ -8,10 +8,10 @@ import org.springframework.stereotype.Component;
 @SpringBootApplication
 @Component
 @Log
-public class DatabaseApplication{
+public class BookApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DatabaseApplication.class, args); }
+        SpringApplication.run(BookApiApplication.class, args); }
 }
 
 
