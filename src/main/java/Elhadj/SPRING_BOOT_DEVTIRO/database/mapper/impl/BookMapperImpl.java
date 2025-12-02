@@ -16,12 +16,12 @@ public class BookMapperImpl implements Mapper<BookEntity, BookDto> {
     }
 
     @Override
-    public BookDto mapFrom(BookEntity bookEntity) {
-        return modelMapper.map(bookEntity, BookDto.class);
+    public BookDto mapTo(BookEntity bookEntity) {
+        return null;
     }
 
     @Override
-    public BookEntity mapTo(BookDto bookDto) {
-        return modelMapper.map(bookDto, BookEntity.class);
+    public BookEntity mapFrom(BookDto bookDto) {
+        return null;
     }
 }
