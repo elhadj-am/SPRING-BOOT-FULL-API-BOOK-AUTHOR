@@ -2,7 +2,7 @@ package Elhadj.SPRING_BOOT_DEVTIRO.database.controllers;
 
 import Elhadj.SPRING_BOOT_DEVTIRO.database.domain.dto.AuthorDto;
 import Elhadj.SPRING_BOOT_DEVTIRO.database.domain.entities.AuthorEntity;
-import Elhadj.SPRING_BOOT_DEVTIRO.database.mapper.Mapper;
+import Elhadj.SPRING_BOOT_DEVTIRO.database.mappers.Mapper;
 import Elhadj.SPRING_BOOT_DEVTIRO.database.services.AuthorService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

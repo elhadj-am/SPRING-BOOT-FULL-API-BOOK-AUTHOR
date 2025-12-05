@@ -1,8 +1,8 @@
-package Elhadj.SPRING_BOOT_DEVTIRO.database.mapper.impl;
+package Elhadj.SPRING_BOOT_DEVTIRO.database.mappers.impl;
 
 import Elhadj.SPRING_BOOT_DEVTIRO.database.domain.dto.BookDto;
 import Elhadj.SPRING_BOOT_DEVTIRO.database.domain.entities.BookEntity;
-import Elhadj.SPRING_BOOT_DEVTIRO.database.mapper.Mapper;
+import Elhadj.SPRING_BOOT_DEVTIRO.database.mappers.Mapper;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
 
