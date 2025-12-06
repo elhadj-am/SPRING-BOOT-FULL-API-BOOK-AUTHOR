@@ -21,11 +21,12 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 @AutoConfigureMockMvc
 public class AuthorControllersIntegrationTests {
 
-    @Autowired
     private MockMvc mockMvc;
-    ObjectMapper objectMapper;
+    private ObjectMapper objectMapper;
 
-    public AuthorControllersIntegrationTests() {
+    @Autowired
+    public AuthorControllersIntegrationTests(MockMvc mockMvc) {
+        this.mockMvc = mockMvc;
         this.objectMapper = new ObjectMapper();
     }
 
