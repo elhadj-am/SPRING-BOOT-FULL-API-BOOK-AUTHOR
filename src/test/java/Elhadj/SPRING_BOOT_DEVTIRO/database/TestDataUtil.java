@@ -1,5 +1,7 @@
 package Elhadj.SPRING_BOOT_DEVTIRO.database;
 
+import Elhadj.SPRING_BOOT_DEVTIRO.database.domain.dto.AuthorDto;
+import Elhadj.SPRING_BOOT_DEVTIRO.database.domain.dto.BookDto;
 import Elhadj.SPRING_BOOT_DEVTIRO.database.domain.entities.AuthorEntity;
 import Elhadj.SPRING_BOOT_DEVTIRO.database.domain.entities.BookEntity;
 
@@ -31,11 +33,20 @@ public final class TestDataUtil {
 
 
 
-    public static BookEntity createTestBookA(final AuthorEntity authorEntity) {
+    public static BookEntity createTestBookEntityA(final AuthorEntity authorEntity) {
         return BookEntity.builder()
                 .isbn("a1b2")
                 .title("Potter")
                 .authorEntity(authorEntity)
+                .build();
+    }
+
+
+    public static BookDto createTestBookDtoA(final AuthorDto authorDto) {
+        return BookDto.builder()
+                .isbn("a1b2")
+                .title("Potter")
+                .author(authorDto)
                 .build();
     }
 
